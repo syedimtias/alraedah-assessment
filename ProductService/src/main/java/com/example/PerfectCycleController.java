@@ -38,7 +38,7 @@ public class PerfectCycleController {
 		//Visit the element and mark as visited
 		//If beginning element is not marked by default its not a cycle.
 		for (int i = 0; i <= arrayLength; i++) {
-			System.out.println("Next Element index: " + nextElement);
+//			System.out.println("Next Element index: " + nextElement);
 			if (nextElement > arrayLength || nextElement < 0) {
 				return false;
 			} else {
@@ -54,7 +54,7 @@ public class PerfectCycleController {
 				break;
 			}
 		}
-		System.out.println(key + ": " + perfectCycle);
+//		System.out.println(key + ": " + perfectCycle);
 		return perfectCycle;
 	}
 
